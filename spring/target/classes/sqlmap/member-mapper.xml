@@ -5,7 +5,7 @@
 <select id="id_check" resultType="integer">
 	select 1 cnt from dual
 </select>
-<select id="and_login" resultType="vo.MemberVO">
+<select id="and_login" resultType="dto.MemberDTO">
 	select * from AND_MEMBER where id = #{id} and pw = #{pw}
 </select>
 </mapper>
