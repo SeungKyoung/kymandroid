@@ -3,7 +3,7 @@
 
 ## 1.Ex01_SendString
 <details>
-<summary>접기/펼치기 버튼</summary>
+<summary>환경설정 참조</summary>
 <div markdown="1">
 - String , String[] 로 Spring으로 전송하고 결과 받기
   -  buuld.gradle에서 꼭 추가!
