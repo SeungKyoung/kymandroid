@@ -26,18 +26,26 @@ import common.Common;
 
 public class SendString extends AsyncTask<String, String, String> {
 
-    String param;
-
+    private String param;
+    private String[] params;
+    private InputStream is ;
     public SendString(String param) {
         this.param = param;
     }
-
+    public SendString(String[] params){
+        this.params = params;
+    }
 
     @Override
     protected String doInBackground(String... strings) {
-
+        if (param != null){
             Common common = new Common("spr_str");
-            InputStream is = common.sendSpring(param);
+            is = common.sendSpring(param);
+        }else if(params != null){
+            Common common = new Common("spr_strs");
+            is = common.sendSpring(params);
+        }
+
             return  rtnString(is);
 
     }

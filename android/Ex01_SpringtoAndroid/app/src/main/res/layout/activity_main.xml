@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".SendStringActivity"
     android:orientation="vertical">
 
     <EditText
@@ -23,4 +23,17 @@
         android:layout_height="wrap_content"
         android:text="스프링에서 다시 받은 값을 표기"
         android:id="@+id/tv_text"/>
+
+
+
+
+    <Button
+        android:layout_marginTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="배열로 여러값 보내는 화면"
+        android:id="@+id/to_act2"/>
+
+
+
 </LinearLayout>

@@ -20,8 +20,6 @@ public class Common {
     HttpEntity httpEntity;
     MultipartEntityBuilder builder;
 
-    String   param ;
-    String[] params;
     InputStream inputStream;
     final static String HTTPIP = "http://192.168.0.176";
     final static String SPRPATH = "/android/";
@@ -42,6 +40,16 @@ public class Common {
 
     public InputStream sendSpring(String param) {
         initParam("param" , param);
+        initHttp();
+        return inputStream;
+    }
+
+    public InputStream sendSpring(String[] params){
+        initParam("size" , params.length+"");
+        for (int i = 0 ; i < params.length ; i ++) {
+            initParam("param" + i, params[i]);
+        }
+
         initHttp();
         return inputStream;
     }
