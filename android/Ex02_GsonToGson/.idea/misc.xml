@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Git/kymandroid/android/Ex02_GsonToGson/app/src/main/res/layout/dto_gson.xml" value="0.10885416666666667" />
+        <entry key="..\:/Git/kymandroid/android/Ex02_GsonToGson/app/src/main/res/layout/list_gson.xml" value="0.10885416666666667" />
+        <entry key="..\:/Study/03.Teach_Android/202111/Ex01_SpringtoAndroid/app/src/main/res/layout/activity_2.xml" value="0.15204678362573099" />
+        <entry key="..\:/Study/03.Teach_Android/202111/Ex01_SpringtoAndroid/app/src/main/res/layout/activity_main.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.google.gson.Gson;
 
-import dto.MemberDTO;
+import dto.TestDTO;
 
 @Controller
 public class String_Controller {
