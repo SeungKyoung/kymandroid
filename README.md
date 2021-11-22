@@ -7,6 +7,7 @@
 <div markdown="1">
 - String , String[] 로 Spring으로 전송하고 결과 받기
   -  buuld.gradle에서 꼭 추가!
+-Spring => String_Controller. 참조
 
 ```sh
 android{
