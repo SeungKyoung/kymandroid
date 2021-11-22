@@ -42,7 +42,7 @@ dependencies{  implementation group: 'org.apache.httpcomponents',
 </details>
 
   
-## 1.Ex02_GsonToGson
+## 2.Ex02_GsonToGson
 <details>
 <summary>중요 코드 </summary>
 <div markdown="1">
@@ -68,6 +68,17 @@ dependencies{  implementation group: 'org.apache.httpcomponents',
   
   
 ```
+
+</div>
+</details>
+	
+## 2.Ex03_RetrofitAPI
+<details>
+<summary>중요 코드 </summary>
+<div markdown="1">
+- 참조 문서&코드 : https://square.github.io/retrofit/
+HttpClient => RetrofitAPI를 이용하는 방법
+
 
 
 
