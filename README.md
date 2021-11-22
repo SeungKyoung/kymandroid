@@ -1,5 +1,5 @@
 # kymandroid
-# Android <-> Spring !
+# Android <-> Spring 간 데이터 전송 참고용 
 
 ## 1.Ex01_SendString
 <details>
@@ -7,6 +7,7 @@
 <div markdown="1">
 - String , String[] 로 Spring으로 전송하고 결과 받기
   -  buuld.gradle에서 꼭 추가!
+-Spring => String_Controller. 참조
 
 ```sh
 android{
