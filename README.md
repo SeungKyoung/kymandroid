@@ -39,3 +39,40 @@ dependencies{  implementation group: 'org.apache.httpcomponents',
 
 </div>
 </details>
+
+  
+## 1.Ex02_GsonToGson
+<details>
+<summary>중요 코드 </summary>
+<div markdown="1">
+- DTO , LIST형태로 데이터 주고받기
+
+```sh
+  android
+  -GsonAtak.java 파일
+     dtoa =  gson.fromJson(new InputStreamReader(is),  TestDTO.class);
+      InputStream으로 리턴 받고 리턴받은 InputStream을 다시 원하는 형태의 DTO로 만들기↑
+  
+   list = gson.fromJson(new InputStreamReader(is), new TypeToken<List<TestDTO>>(){}.getType());
+        InputStream으로 리턴 받고 리턴받은 InputStream을 다시 원하는 형태의 LIST 만들기↑
+```
+```sh
+  Spring
+  -Gson_Controller.java 파일
+  맵핑(spr_gson)
+   getParameter로 DTO를 받은 후 원하는 형태으 DTO로 만들기
+    String aa =  req.getParameter("dto");
+		TestDTO fromDTO =	gson.fromJson(aa,TestDTO.class );
+  
+  
+  
+```
+
+
+
+
+</div>
+</details>
+  
+  
+  
