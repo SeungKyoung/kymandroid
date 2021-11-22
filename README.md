@@ -1,5 +1,5 @@
 # kymandroid
-# Android <-> Spring !
+# Android <-> Spring 간 데이터 전송 참고용 
 
 ## 1.Ex01_SendString
 <details>
