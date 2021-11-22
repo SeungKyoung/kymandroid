@@ -10,15 +10,35 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="배열을 파라메터로 쓰기"
-        android:id="@+id/tv_arr1"/>
+        android:id="@+id/et_arr1"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="배열을 파라메터로 쓰기"
-        android:id="@+id/tv_arr2"/>
+        android:id="@+id/et_arr2"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="배열을 파라메터로 쓰기"
+        android:id="@+id/et_arr3"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="전송하기"
         android:id="@+id/btn_send2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="데이터 받는곳"
+        android:id="@+id/tv_arr1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="데이터 받는곳"
+        android:id="@+id/tv_arr2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="데이터 받는곳"
+        android:id="@+id/tv_arr3"/>
 </LinearLayout>

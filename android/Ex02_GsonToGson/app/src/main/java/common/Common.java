@@ -14,6 +14,8 @@ import org.apache.http.entity.mime.HttpMultipartMode;
 import org.apache.http.entity.mime.MultipartEntityBuilder;
 
 import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 import dto.TestDTO;
 
@@ -43,6 +45,11 @@ public class Common {
         return inputStream;
     }
 
+    public InputStream sendSpring(ArrayList<TestDTO> list) {
+        initParam("list" , list);
+        initHttp();
+        return inputStream;
+    }
 
 
     public void initHttp(){
@@ -71,6 +78,10 @@ public class Common {
         builder.addTextBody(key, gson.toJson(dto), ContentType.create("Multipart/related", "UTF-8"));
     }
 
+    public void initParam(String key , ArrayList<TestDTO> dto){
+        Gson gson = new Gson();
+        builder.addTextBody(key, gson.toJson(dto), ContentType.create("Multipart/related", "UTF-8"));
+}
 
     public void setMapping(String mapping){
         postURL = HTTPIP + SPRPATH +mapping ;

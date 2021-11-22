@@ -40,6 +40,11 @@
         android:layout_height="wrap_content"
         android:text="스프링에서 다시 받아오기 결과"
         android:id="@+id/tv_text2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="스프링에서 다시 받아오기 결과"
+        android:id="@+id/tv_text3"/>
 
 
 
