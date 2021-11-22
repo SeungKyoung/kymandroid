@@ -63,8 +63,7 @@ public class GsonAtask extends AsyncTask<Object, Object, Object> {
                 Common common = new Common("spr_gsonlist");
                 is = common.sendSpring(list);
                 Gson gson = new Gson();
-
-
+                
                 list = gson.fromJson(new InputStreamReader(is), new TypeToken<List<TestDTO>>(){}.getType());
             } catch (Exception e) {
                 e.printStackTrace();
