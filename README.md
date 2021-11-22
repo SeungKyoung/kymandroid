@@ -77,7 +77,7 @@ dependencies{  implementation group: 'org.apache.httpcomponents',
 <summary>중요 코드 </summary>
 <div markdown="1">
 - 참조 문서&코드 : https://square.github.io/retrofit/
-HttpClient => RetrofitAPI를 이용하는 방법
+HttpClient => RetrofitAPI를 이용하는 방법 진행중 .. 1
 
 
 
